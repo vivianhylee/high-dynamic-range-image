@@ -7,11 +7,26 @@ The goal of this project is to recover high dynamic range radiance maps from pho
 ## Algorithm Overview
 ### High Dynamic Range Radiance Map Construction
 1. Film Response Curve Recovery
->Film response curve is a function g=ln(f-1) maps from pixel values Zij (from 0 to 255) to the log of exposure values: g(Zij) = ln(Ei) + ln(tj) (equation 2 in Debevec). Zij is the observed pixel value at pixel i at image j from image stack and it is a function of scene radiance and known exposure duration, Zij = f(Ei * Δtj). Ei is the unknown scene radiance at pixel i, and scene radiance integrated over some time (Ei * Δtj) is the exposure at a given pixel. 
+>Film response curve is a function maps from observed pixel values on an image to the log of exposure values: g(Zij) = ln(Ei) + ln(tj)
+
+>> Zij: observed pixel value at pixel i at image j from image stack. 
+
+>> Ei : unknown scene radiance at pixel i
+
+>> f  : mapping from scene radiance integrated over known exposure duration to Zij,  Zij = f(Ei * Δtj)
+
+>> g  : response curve function, g = ln(f-1)
+
 >This response curve can be used to determine radiance values in any images acquired by the imaging processing associated with g, not just the images used to recover the response curve.
 
+>To make the g robust, we make two additional points:
+
+>>Smoothness term: We expect g to be smooth. Debevec adds a constraint to the linear system which penalizes g according to the magnitude of its second derivative. 
+
+>>Linear weighting function: g will be less smooth and will fit the data more poorly near extremes (Z= 0 or Z= 255). Debevec introduces a weighting function to enphasize the smoothness fitting terms toward the middle of the curve.
+
 2. High Dynamic Range Radiance Map Construction
->Once the response curve g is recovered, we can construct a radiance map based on equation 6 in Debevec. In order to reducing noise in the recovered radiance value, we use all the available exposrues for a particular pixel to computer its radiance.
+>Once the response curve g is recovered, we can construct a radiance map, which maps from the observed pixels values and exposure times to radiance. In order to reducing noise in the recovered radiance value, we use all the available exposrues for a particular pixel to computer its radiance based on equation 6 in Debevec. 
 
 ### Tone Mapping
 >Global tone mapping: In this project, we use gamma correction as global tone mapping. The output image is proportional to the input raised to the power of the inverse of gamma. 
