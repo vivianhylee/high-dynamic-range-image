@@ -19,7 +19,7 @@ The goal of this project is to recover high dynamic range radiance maps from pho
 
 >This response curve can be used to determine radiance values in any images acquired by the imaging processing associated with g, not just the images used to recover the response curve.
 
->To make the g robust, we make two additional points:
+>To make the g more robust, Debevec makes two additional points:
 
 >>Smoothness term: We expect g to be smooth. Debevec adds a constraint to the linear system which penalizes g according to the magnitude of its second derivative. 
 
