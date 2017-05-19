@@ -21,18 +21,20 @@ The goal of this project is to recover high dynamic range radiance maps from pho
 
 ## Result 1
 ### Original image
-![original image](https://github.com/vivianhylee/high-dynamic-range-image/example/output1.png)
+![original image](https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/output1.png)
+![original image](https://github.com/vivianhylee/seam-carving/raw/master/example/image6.jpg)
+
 
 <table>
 <tr>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/example/sample-00.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/example/sample-01.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/example/sample-02.png" /><br>Nearest-Neighbor</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/result/sample-00.png" /><br>Nearest-Neighbor</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/result/sample-01.png" /><br>Nearest-Neighbor</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/result/sample-02.png" /><br>Nearest-Neighbor</th>
 </tr>
 <tr>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/example/sample-03.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/example/sample-04.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/example/sample-05.png" /><br>Nearest-Neighbor</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/result/sample-03.png" /><br>Nearest-Neighbor</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/result/sample-04.png" /><br>Nearest-Neighbor</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/result/sample-05.png" /><br>Nearest-Neighbor</th>
 </tr>
 </table>
 
