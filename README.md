@@ -23,27 +23,34 @@ The goal of this project is to recover high dynamic range radiance maps from pho
 ### Original image
 <table>
 <tr>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/sample-00.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/sample-01.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/sample-02.png" /><br>Nearest-Neighbor</th>
-</tr>
-<tr>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/sample-03.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/sample-04.png" /><br>Nearest-Neighbor</th>
-<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/sample-05.png" /><br>Nearest-Neighbor</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample-00.png" /><br>Exposure 1/160 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample-01.png" /><br>Exposure 1/125 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample-02.png" /><br>Exposure 1/80 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample-03.png" /><br>Exposure 1/60 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample-04.png" /><br>Exposure 1/40 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample-05.png" /><br>Exposure 1/15 sec</th>
 </tr>
 </table>
 
 ### HDR image
-![HDR image](https://github.com/vivianhylee/high-dynamic-range-image/raw/master/result/output1.png)
+<img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/output1.png" width="500"/>
 
+## Result 2
+### Original image
+<table>
+<tr>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample2-00.jpg" /><br>Exposure 1/400 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample2-01.jpg" /><br>Exposure 1/250 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample2-02.jpg" /><br>Exposure 1/100 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample2-03.jpg" /><br>Exposure 1/40 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample2-04.jpg" /><br>Exposure 1/25 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample2-05.jpg" /><br>Exposure 1/8 sec</th>
+<th><img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/sample2-06.jpg" /><br>Exposure 1/3 sec</th>
+</tr>
+</table>
 
-
-
-
-
-
-
+### HDR image
+<img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/output2.png" width="500"/>
 
 
 
