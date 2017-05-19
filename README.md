@@ -8,7 +8,7 @@ The goal of this project is to recover high dynamic range radiance maps from pho
 ### High Dynamic Range Radiance Map Construction
 1. Film Response Curve Recovery
 >Film response curve is a function maps from observed pixel values on an image to the log of exposure values: g(Zij) = ln(Ei) + ln(tj). To recover function g, we implement equation from Debevec
-<img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/e1.png" height="100"/>
+<img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/e1.png" height="150"/>
 
 >>g is the unknown response function
 
@@ -31,7 +31,7 @@ The goal of this project is to recover high dynamic range radiance maps from pho
 2. High Dynamic Range Radiance Map Construction
 >Once the response curve g is recovered, we can construct a radiance map based on equation from Debevec
 
-<img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/e2.png" height="75"/>
+<img src="https://github.com/vivianhylee/high-dynamic-range-image/raw/master/example/e2.png" height="80"/>
 
 >In order to reducing noise in the recovered radiance value, we use all the available exposrues for a particular pixel to computer its radiance based on equation 6 in Debevec. 
 
